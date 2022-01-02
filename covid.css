@@ -1,0 +1,27 @@
+ body{
+		font-family: 'Noto Sans', sans-serif;
+		background-color: #fdfdfd;
+	}
+	.card, .col-md-8{
+		background-color: #faf9f9;
+	}
+	.img{
+		width: 15%;
+	}
+	.title{
+		font-weight: 600;
+	    color: #4070f4;
+    }
+    footer{
+    	font-size: .938rem;
+    	color: #faf9f9;
+    	height: 3rem;
+    	background-color: #111f4d;
+    }
+    .card-title{
+    	color: #005792;
+    }
+    .card-text{
+    	font-weight: 600;
+    	color: #5f5dbd;
+    }
