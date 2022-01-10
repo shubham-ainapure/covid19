@@ -8,10 +8,10 @@
     let death=data.deaths;
     // let recover=total-death;
     // const recovered=data.TotalConfirmed-data.TotalDeaths;
-  document.getElementById("total").innerHTML=total;
-    document.getElementById("death").innerHTML=death;
-    document.getElementById("new").innerHTML=data.activeCases;
-    document.getElementById("recovered").innerHTML=data.recovered;
+  document.getElementById("total").innerHTML=total.toLocaleString('en-IN');
+    document.getElementById("death").innerHTML=death.toLocaleString('en-IN');
+    document.getElementById("new").innerHTML=data.activeCases.toLocaleString('en-IN');
+    document.getElementById("recovered").innerHTML=data.recovered.toLocaleString('en-IN');
   // const data=coviddata;
   console.log(coviddata);
  })
